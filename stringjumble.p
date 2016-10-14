@@ -28,3 +28,18 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 string = input("Please enter a string of text (the bigger the better): ")
 print ('You entered "' + string + '". Now jumble it:')
 lies = list(string)
+length = len(string)
+
+
+leng = length
+back = ""
+leng = leng -1
+while leng >= 0:
+    x = lies[leng]
+    back = back + str(x)
+    leng = leng -1
+print (back)
+
+
+lend = length
+backs = ""
