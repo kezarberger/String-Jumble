@@ -47,6 +47,5 @@ lend = lend - 1
 while lend >= 0:
     y = lies[lend]
     backs = string.split()
-    lend = lend - 1
 print (backs)
 
