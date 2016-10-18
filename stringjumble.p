@@ -41,11 +41,23 @@ while leng >= 0:
 print (back)
 
 
-lend = length
+
+lies = string.split()
 backs = ""
-lend = lend - 1
+lend = len(lies)-1
 while lend >= 0:
     y = lies[lend]
-    backs = string.split()
+    backs = backs + y + " "
+    lend = lend -1
 print (backs)
 
+
+
+kotz = string.split()
+backed = ""
+
+lend = len(lies)-1
+while lend >= 0:
+    y = lies[lend]
+    backs = backs + y + " "
+    lend = lend -1
