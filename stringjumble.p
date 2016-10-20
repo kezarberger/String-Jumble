@@ -55,9 +55,19 @@ print (backs)
 
 kotz = string.split()
 backed = ""
-
-lend = len(lies)-1
-while lend >= 0:
-    y = lies[lend]
-    backs = backs + y + " "
-    lend = lend -1
+backer = ""
+lent = len(kotz)-1
+for z in kotz:
+    lent = len(z) -1
+    z = list(z)
+    while lent >= 0:
+        now = z[lent]
+        backed = backed + now
+        lent = lent-1
+    backer = backer + backed + " "
+print (backer)
+    
+    
+    
+    
+    
