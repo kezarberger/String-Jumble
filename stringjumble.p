@@ -54,10 +54,11 @@ print (backs)
 
 
 kotz = string.split()
-backed = ""
 backer = ""
+backed = ""
 lent = len(kotz)-1
 for z in kotz:
+    backed = ""
     lent = len(z) -1
     z = list(z)
     while lent >= 0:
