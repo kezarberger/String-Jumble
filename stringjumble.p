@@ -67,8 +67,3 @@ for z in kotz:
         lent = lent-1
     backer = backer + backed + " "
 print (backer)
-    
-    
-    
-    
-    
